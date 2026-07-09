@@ -1,0 +1,57 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local lab notes, runbooks, and generated evidence
+WHAT_TO_RUN.md
+WHERE_WE_ARE.md
+simple.md
+docs/
+notebooks/
+Dockerfile
+docker-compose.yml
+docker/
+.dockerignore
+scripts/lab_preflight.py
+evidence/*
+!evidence/README.md
+Home-Demo/
+*.log
+
+# Local environment
+.env
+.env.*
+.venv/
+venv/
+CODEX.md
+
+# Omniverse / kit generated output
+kit-app-template/.git/
+kit-app-template/.github/
+kit-app-template/CHANGELOG.md
+kit-app-template/README.md
+kit-app-template/SECURITY.md
+kit-app-template/readme-assets/
+kit-app-template/templates/
+kit-app-template/_build/
+kit-app-template/_compiler/
+kit-app-template/_repo/
+kit-app-template/.omniverse_eula_accepted.txt
+kit-app-template/logs/
+kit-app-template/cache/
+kit-app-template/_*
+
+# Coursework and scratch folders if this repo is initialized from a parent copy
+Homework/
+Manuals/
+RBB2013/
+Syncra/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
