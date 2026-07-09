@@ -11,7 +11,7 @@ The project combines an NVIDIA Omniverse Kit application with a lightweight robo
 - Telemetry path: robot/mobilebot state into a digital twin state model
 - Safety stage: telemetry-first; real robot movement commands are not part of the default public path
 
-The physical platform uses FEETECH STS3215-12V bus servos through a Waveshare Bus Servo Adapter. Read-only servo communication has been verified for IDs `7`, `8`, and `9`.
+The physical platform uses FEETECH STS3215-12V bus servos through a Waveshare Bus Servo Adapter.
 
 ## Repository Layout
 
