@@ -17,6 +17,7 @@ docker-compose.yml
 docker/
 .dockerignore
 scripts/lab_preflight.py
+scripts/real_servo_tiny_motion.py
 evidence/*
 !evidence/README.md
 Home-Demo/

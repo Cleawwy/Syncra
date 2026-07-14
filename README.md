@@ -31,10 +31,10 @@ scripts/
   check_http_state.py
   capture_evidence.py
   self_test_state_processing.py
+  real_servo_scan.py
+  real_servo_mqtt_bridge.py
 ```
 
-## Notes
+## License
 
-This repository intentionally excludes local lab runbooks, homework files, generated evidence logs, Docker wrapper files, and Omniverse build/cache output.
-
-NVIDIA Kit template license and product terms are retained under `kit-app-template/`.
+The NVIDIA Kit template license and product terms are included under `kit-app-template/`.
