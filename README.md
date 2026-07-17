@@ -9,6 +9,7 @@ The project combines an NVIDIA Omniverse Kit application with a lightweight robo
 - Omniverse Kit app: `digitaltwin.mobilebot`
 - Robot visualization: three-wheel mobile robot placeholder scene
 - Telemetry path: robot/mobilebot state into a digital twin state model
+- State model: `OK`, `STALE`, and `ABNORMAL` classification from freshness, boundary, speed, angular speed, and battery checks
 - Safety stage: telemetry-first; real robot movement commands are not part of the default public path
 
 The physical platform uses FEETECH STS3215-12V bus servos through a Waveshare Bus Servo Adapter.
