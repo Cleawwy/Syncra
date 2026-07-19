@@ -39,7 +39,7 @@ def assert_equal(actual, expected, label: str) -> None:
 
 
 def main() -> int:
-    store = StateStore(history_size=5, stale_after_s=3.0, evidence_log=None)
+    store = StateStore(history_size=5, stale_after_s=3.0, evidence_logger=None)
 
     missing = store.latest_snapshot()
     assert_equal(missing["status"], "MISSING", "initial status")
